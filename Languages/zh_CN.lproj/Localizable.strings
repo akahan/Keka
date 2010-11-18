@@ -1,0 +1,63 @@
+/* Growl */
+"Extraction complete" = "解压完成"; // Extraction complete title
+"Extraction of file \"%@\" complete" = "解压 \"%@\" 完成"; // Extraction complete description
+"Extraction fail" = "解压失败"; // Extraction fail title
+"Extraction of file \"%@\" failed." = "解压 \"%@\" 失败"; // Extraction fail description
+"Compression complete" = "压缩完成"; // Compression complete title
+"File \"%@\" created" = "压缩文件已创建 \"%@\""; // Compression complete description
+"Compression fail" = "压缩失败"; // Compression fail title
+"File \"%@\" cannot be created" = "无法创建压缩文件 \"%@\""; // Compression fail description
+"Operation not implemented" = "操作没有完成"; // Advice to certain functions that are not implemented in beta process, title
+"This operation is not implemented yet so Keka is in beta process." = "该操作没有完成，因为 Keka 正处于 beta 中"; // Advice to certain functions that are not implemented in beta process,
+
+/* Progress window */
+"Performing operation..." = "操作正在进行中......"; // Main status text
+"Waiting..." = "等待中......"; // Second status text
+"Extracting \"%@\"" = "正在解压缩 \"%@\""; // Extract main status text
+"Extracting \"%@...\"" = "正在解压缩 \"%@...\""; // Extract main status text, long string
+"Creating %@ file..." = "正在创建压缩文件 %@ ......"; // Compress main status text while waiting for choose name and location
+"Creating file \"%@\"" = "正在创建压缩文件 \"%@\""; // Compress main status text
+"Time elapsed: %d seconds" = "已消耗时间： %d 秒"; // Time only sec
+"Time elapsed: %d:%@%d minutes" = "已消耗时间： %d:%@%d 分钟"; // Time, min and sec
+"Time elapsed: %d:%@%d:%@%d hours" = "已消耗时间：  %d:%@%d:%@%d 小时"; // Time, hour, min and sec
+"%d seconds" = "%d 秒";
+"%d:%@%d minutes" = "%d:%@%d 分钟";
+"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d 小时";
+"Pause" = "暂停";
+"Continue" = "继续";
+"Operation paused" = "操作暂停";
+"Cancel" = "取消";
+"Close" = "关闭";
+"Operation failed" = "操作失败";
+"Operation failed with error code %d" = "操作失败　错误代码： %d";
+
+/* Password window */
+"Password needed on file \"%@\"" = "该压缩文件需要密码 \"%@\""; // Password need advice
+
+/* Preferences */
+// Compression methods
+"Store" = "存储";
+"Fastest" = "最快";
+"Fast" = "快速";
+"Normal" = "正常";
+"Maximum" = "最大";
+"Ultra" = "极致";
+// Save location and defaul name combo boxes
+"Ask each time" = "每次均询问";
+"Next to original file" = "和源文件同一文件夹";
+"Custom folder..." = "自定义文件夹......";
+// ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Same as original file" = "和源文件相同";
+// ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Custom name..." = "自定义文件名...";
+"Compressed file" = "压缩文件"; // Default name if no one specified in default name text box
+// Action to perform - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Perform automatic action" = "自动操作";
+"Always compress" = "总是压缩";
+"Always extract" = "总是解压";
+
+//Split items - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"1.4 MB Floppy" = "1.4 MB 软盘";
+"650 MB CD" = "650 MB CD";
+"700 MB CD" = "700 MB CD";
+"4480 MB DVD" = "4480 MB DVD";

@@ -1,0 +1,61 @@
+/* Growl */
+"Extraction complete" = "Extracción completa"; // Extraction complete title
+"Extraction of file \"%@\" complete" = "Extracción del archivo \"%@\" completa"; // Extraction complete description
+"Extraction fail" = "Extracción fallida"; // Extraction fail title
+"Extraction of file \"%@\" failed." = "Extracción del archivo \"%@\" fallida."; // Extraction fail description
+"Compression complete" = "Compresión completa"; // Compression complete title
+"File \"%@\" created" = "Archivo \"%@\" creado"; // Compression complete description
+"Compression fail" = "Compresión fallida"; // Compression fail title
+"File \"%@\" cannot be created" = "El archivo \"%@\" no se ha podido crear"; // Compression fail description
+"Operation not implemented" = "Operación no implementada"; // Advice to certain functions that are not implemented in beta process, title
+"This operation is not implemented yet so Keka is in beta process." = "Esta función no ha sido implementada."; // Advice to certain functions that are not implemented in beta process,
+
+/* Progress window */
+"Performing operation..." = "Preparando la operación..."; // Main status text
+"Waiting..." = "Esperando..."; // Second status text
+"Extracting \"%@\"" = "Extrayendo \"%@\""; // Extract main status text
+"Extracting \"%@...\"" = "Extrayendo \"%@...\""; // Extract main status text, long string
+"Creating %@ file..." = "Creando el archivo %@..."; // Compress main status text while waiting for choose name and location
+"Creating file \"%@\"" = "Creando el archivo \"%@\""; // Compress main status text
+"Time elapsed: %d seconds" = "Tiempo transcurrido: %d segundos"; // Time only sec
+"Time elapsed: %d:%@%d minutes" = "Tiempo transcurrido: %d:%@%d minutes"; // Time, min and sec
+"Time elapsed: %d:%@%d:%@%d hours" = "Tiempo transcurrido: %d:%@%d:%@%d horas"; // Time, hour, min and sec
+"%d seconds" = "%d segundos";
+"%d:%@%d minutes" = "%d:%@%d minutos";
+"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d horas";
+"Pause" = "Pausa";
+"Continue" = "Continuar";
+"Operation paused" = "Operación pausada";
+"Cancel" = "Cancelar";
+"Close" = "Cerrar";
+"Operation failed" = "Operación fallida";
+"Operation failed with error code %d" = "La operación ha fallado con el código de error %d";
+
+/* Password window */
+"Password needed on file \"%@\"" = "Contraseña para \"%@\""; // Password need advice
+
+/* Preferences */
+// Compression methods
+"Store" = "Almacenar";
+"Fastest" = "Muy rápido";
+"Fast" = "Rápido";
+"Normal" = "Normal";
+"Maximum" = "Máximo";
+"Ultra" = "Ultra";
+// Save location and defaul name combo boxes
+"Ask each time" = "Preguntar cada vez";
+"Next to original file" = "Al lado del archivo original";
+"Custom folder..." = "Carpeta personalizada...";
+"Same as original file" = "El mismo que el archivo original";
+"Custom name..." = "Nombre personalizado...";
+"Compressed file" = "Archivo comprimido"; // Default name if no one specified in default name text box
+// Action to perform - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Perform automatic action" = "Realizar operación automáticamente";
+"Always compress" = "Comprimir siempre";
+"Always extract" = "Extraer siempre";
+
+//Split items - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"1.4 MB Floppy" = "1.4 MB Disquete";
+"650 MB CD" = "650 MB CD";
+"700 MB CD" = "700 MB CD";
+"4480 MB DVD" = "4480 MB DVD";

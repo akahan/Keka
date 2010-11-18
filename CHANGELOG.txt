@@ -1,0 +1,181 @@
+Changes in 0.1.4.1 (17/11/2010)
+
+Fixed a bug that prevents Keka to exit
+
+#####################################################################
+
+Changes in 0.1.4.1 (09/11/2010)
+
+- Fixed (again) one string in Process window that always appears in English (Thanks again to David Genest) (Tracker ID 2957099)
+- Fixed Simplified and Traditional Chinese localization (Thanks to F.R.)
+- Fixed Catalan localization (Thanks to Albert P. Martí)
+- Fixed Portuguese localization (Thanks to Vitor and Pplware!)
+
+#####################################################################
+
+Changes in 0.1.4 (05/11/2010)
+
+- Changed lowercase name keka to Keka, as it seems to be better ;) (Tracker ID 3012724)
+- Visual changes in Process, Password and Exit windows (Thanks to kemeng for the tips)
+- Added key shortcut in Process window to pause and continue (Space bar)
+- Added two shortcuts for main two actions in Password and exit windows: Esc (to exit) and Enter (to proceed)
+- Some minor changes in window placement
+- Default format for new users will be Zip instead of 7zip. You can change it in Preferences. I hear you Eirik ;)
+- Updated Unrar 3.91 to 3.93 (Thanks to rarlab)
+- Updated 7z 9.04 to 9.13 (Thanks to Igor Pavlov and myspace)
+- New localization: Simplified Chinese (Thanks to hyx108, Mandy and Bobo)
+- New localization: Portuguese (Thanks to pplware.com team!)
+- New localization: Català (Thanks to Albert Lombarte)
+- New localization: Italiano (Thanks to VinBoiSoft)
+- Updated French localization (Thanks to David Genest) (Tracker ID 2957099)
+- Fixed two strings in Process window that always appears in English (Thanks again to David Genest) (Tracker ID 2957099)
+- Fixed menu item that don't show properly the Keka main window. (Tracker ID 3045115)
+- Updated Growl Framework from 1.2 to 1.2.1
+- Click on Growl notifications to see compressed/extracted files in Finder (Thanks for the request!) (Tracker ID 2943167)
+- Delay in Keka exit if some Growl notification is active.
+
+#####################################################################
+
+Changes in 0.1.3.4 (15/08/2010)
+
+- Fixed autoupdate in version 0.1.3.3.
+
+#####################################################################
+
+Changes in 0.1.3.3 (29/05/2010)
+
+- As demanded, keka will not be automatically the default program the defaul extraction program. You can chose it manually on preferences. No autoupdate will be available as this only afect to first time you use keka.
+
+#####################################################################
+
+Changes in 0.1.3.2 (/01/2010)
+
+- Now _MACOSX folder is excluded when extracting a file
+- New localizations : Chinese Traditional and French. Thanks to F.R.
+- Now method is stored as a integer in preferences file for better localization support (May lost your current default method)
+- Now gnutar used instead p7zip for tar, gz and bzip2 extraction due an error in p7zip that loses some permissions when extracting tar files. Thanks to Moureau Stéphane, dkarney and plecto for feedback. (Tracker ID 2933052) (Tracker ID 2935878)
+- Some changes in output selection code
+
+#####################################################################
+
+Changes in 0.1.3.1 (08/01/2010)
+
+- Solved an error produced on preferences file update (only when updating from a previous version) that blocks the extraction. Thanks to esetleges for advice!
+
+#####################################################################
+
+Changes in 0.1.3 (07/01/2010)
+
+- Added an option to exclude hidden files (Mac Forks) when compressing (thanks for xr argument feedback) (Tracker ID 2913035)
+- Changed the output used by keka to extract files. Now use a temporary name, and after extraction decides if uses a folder or not necessary (Tracker ID 2887686 & 2918590)
+- Improved automatic name chooser, which often looses extensions
+- Added auto-extraction for Tar files inside another archive (ex: tar.gz) (Tracker ID 2905326)
+- Now keka interface can handle copy/paste with keyboard shortcuts (thanks to Thiemo for advice) (Tracker ID 2913657)
+- Now the process window shows an error if necessary after each operation (Tracker ID 2863325)
+- Added an option in preferences to open file/folder in Finder after compression/extraction
+- New options in Preferences window to choose default output location for extraction (Tracker ID 2915948)
+- Added PAX to extraction formats list
+- Updated unrar form 3.91 beta 1 to final 3.91
+
+#####################################################################
+
+Changes in 0.1.2.1 (23/12/2009)
+
+- Restablished PPC support on 7z binary (Thanks to Lasse Kolb for advice)
+- Now using modified p7zip 9.04 version by ChangBeom Park (Thanks for 32/64 bits advice too)
+
+My apologies for the Intel only 32 bits binary since 0.1.1 version (when changed to 7z instead of 7za). Solved!
+
+#####################################################################
+
+Changes in 0.1.2 (16/12/2009)
+
+- New localizations: Deutsch and Spanish.
+- Redesigned preferences window.
+- Now keka sets as default tool for supported formats (less ISO). (Christian Heutger request)
+- Bug corrected: showing file icon when compressing fails.
+- New option in main window to auto-delete original files after been compressed (until exit).
+- Added an option in preferences to always auto-delete compressed files after been extracted. (esetleges request)
+- Added an option in preferences to always auto-delete original files after been compressed. (esetleges request)
+- Added bz, tgz, tbz2, tbz, cpgz, cpio and cab to extraction formats list.
+- Deleted main window animation cause it's useless.
+- Few other code improvements.
+
+#####################################################################
+
+Changes in 0.1.1 (27/11/2009)
+
+- Now keka uses 7z and 7z.so instead of 7za. Less weight, more options.
+- ISO, EXE and CAB files now can be extracted (with "Always extract" option selected).
+- Custom sizes in split option now are applied without having to press return. Thanks to alyshahb for feedback.
+- Bug solved: with the custom folder selected in preferences, split files with the same name fails.
+- On files with password, the binary output of 7z now is handled by keka. 
+- Some console messages deleted. Now just shows error messages and a few informative.
+- Updated Unrar from version 3.60 beta 6 to version 3.91 beta 1.
+
+#####################################################################
+
+Changes in 0.1 (22/11/2009)
+
+- New split in volumes option
+- Now keka can extract volume files (7z, Gzip, Bzip2, Tar = 001; Rar = r00; Ace = c00)
+- Updated Growl framework to 1.2
+- Few other code/UI changes
+
+#####################################################################
+
+Changes in 0.1 Beta 2 (28/09/2009)
+
+- Now keka runs in 64 bits when possible.
+- Added a dock menu where format, method and performed action can be selected.
+- Added always compress/extract options in preferences and in dock menu.
+- New option to don't close keka when no window is opened.
+- New object in window bar and dock menu to open keka default window.
+- Prevent to close keka with cmd+Q when a process is running.
+- Changed binary names with keka prefix to better control of them.
+- Made a cleaning open processes when keka crashes.
+- Updated  to Growl 1.2b7.
+- Growl notifies the name of the new compressed file.
+- Corrected minor cosmetic issue (quit and hide menu items). Thanks to anonymous.
+- Changes in time counter.
+
+#####################################################################
+
+Changes in 0.1 Beta 1 (15/09/2009)
+
+- Added support for lzma extraction.
+- Some visual changes in progress window.
+- File manager control for deleting unfinished files changed (due 10.6 SDK).
+- Some internal changes in format/method selection.
+- If multiple files are compressed at once, default name are user in output file.
+- Added preferences window:
+	- Default format
+	- Default method
+	- Destination folder
+	- Default name
+
+BUGS CORRECTED
+
+- Drag file to archive to keka opened, cancel save dialog, when do again dragController must be in NO but seems not correct.
+- When main window is open, drag to extract or add, process window shows, close main window. On process end app crash.
+- Other minor bugs
+
+#####################################################################
+
+Changes in 0.1a2 (31/08/2009)
+
+- Added ACE format (only extraction). Its unstable, just for testing purposes
+- Code of format selection simplified
+- Better growl implementation
+- Now keka can extract files with password
+
+BUGS CORRECTED
+
+- If keka closed and drag files to archive and cancel, process window doesn't close
+- If main window open, on cancel process main progress indicator continues activated
+- If cancel pressed, when extracting/compressing again keka hangs
+- Files not extracted correctly now are deleted
+
+#####################################################################
+
+Launch of first public version of keka. Version 0.1a (26/08/2009)

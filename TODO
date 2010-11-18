@@ -1,0 +1,43 @@
+- fix strings: french has it, 2 strings for "long name"
+
+- add xar compress/extract format (inside Mac OS X)
+
+- name creator as a method
+
+- name creator in "custom folder" needs to be the same as in "next to…"
+
+- BUG: after choose gzip or bzip and return to other, method change without making it visible
+
+- Show real progress in progress bar (pipes)
+
+- Put two pipes: for standard and for error.
+
+- Split code in multiple files (better object-c)
+
+- Show a more compressive error
+
+- BUG on compression with multiple file, including files with two extension .xml.gz for example, keka compress all except gz that intends to extract.
+
+- Advice time elapsed in growl
+
+- code implementation of growl (no framework) NOT IMPORTANT
+
+- BUG savepanel run in model just the first time
+	- BUG keka opened, create a file (cancel or do it), then, extract a file with password, keka hangs
+	- BUG extracting ace file, if cancel, progress indicator in main window continues active
+
+- Auto compression tar + gzip/bzip2
+
+- BUG Extraction breaks at end process function, when sietezip release called
+
+- Multiple instances, multiple tasks (queue)
+
+- Notify gzip & bzip just work with one file
+
+- List to drag and drop, & see the dragged to icon app
+
+- Save windows position in defaults or plist
+
+- When gzip or bzip choosed, ask for extract or compress when drop is a tar
+
+- Allow to create a folder while choosing default destination folder

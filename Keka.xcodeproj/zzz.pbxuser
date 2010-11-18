@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5E589169101C79B600D3CBAB /* keka */;
+		activeTarget = 8D1107260486CEB800E47090 /* keka */;
+		codeSenseManager = 5E589182101C79C400D3CBAB /* Code sense */;
+		executables = (
+			5E589169101C79B600D3CBAB /* keka */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 270301622;
+			PBXWorkspaceStateSaveDate = 270301622;
+		};
+		perUserProjectItems = {
+			5E5892B9101C7F1200D3CBAB /* PlistBookmark */ = 5E5892B9101C7F1200D3CBAB /* PlistBookmark */;
+			5E5892BA101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892BA101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892BB101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892BB101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892BC101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892BC101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892BD101C7F1200D3CBAB /* PlistBookmark */ = 5E5892BD101C7F1200D3CBAB /* PlistBookmark */;
+			5E5892BE101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892BE101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892BF101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892BF101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892C0101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892C0101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892C1101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892C1101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892C2101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892C2101C7F1200D3CBAB /* PBXTextBookmark */;
+			5E5892C3101C7F1200D3CBAB /* PBXTextBookmark */ = 5E5892C3101C7F1200D3CBAB /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5E589181101C79C400D3CBAB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 242}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* keka_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 445}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 139}";
+		};
+	};
+	5E589169101C79B600D3CBAB /* keka */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = keka;
+		sourceDirectories = (
+		);
+	};
+	5E589181101C79C400D3CBAB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	5E589182101C79C400D3CBAB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5E5892B9101C7F1200D3CBAB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/aONe-Dev/keka/keka/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5E5892BA101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* keka_Prefix.pch */;
+		name = "keka_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	5E5892BB101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	5E5892BC101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F75137811017C1620021BDF3 /* kekaController.m */;
+		name = "kekaController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2809;
+		vrLoc = 0;
+	};
+	5E5892BD101C7F1200D3CBAB /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/aONe-Dev/keka/keka/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5E5892BE101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* keka_Prefix.pch */;
+		name = "keka_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	5E5892BF101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F75137811017C1620021BDF3 /* kekaController.m */;
+		name = "kekaController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	5E5892C0101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	5E5892C1101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F75137811017C1620021BDF3 /* kekaController.m */;
+		name = "kekaController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2809;
+		vrLoc = 0;
+	};
+	5E5892C2101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 242;
+		vrLoc = 0;
+	};
+	5E5892C3101C7F1200D3CBAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F75137811017C1620021BDF3 /* kekaController.m */;
+		name = "kekaController.m: 170";
+		rLen = 0;
+		rLoc = 4532;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 3651;
+	};
+	8D1107260486CEB800E47090 /* keka */ = {
+		activeExec = 0;
+		executables = (
+			5E589169101C79B600D3CBAB /* keka */,
+		);
+	};
+	F75137811017C1620021BDF3 /* kekaController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{277, 1825}\";\n            s = 0;\n        },\n                {\n            r = \"{2173, 217}\";\n            s = 0;\n        },\n                {\n            r = \"{2457, 144}\";\n            s = 0;\n        },\n                {\n            r = \"{2664, 141}\";\n            s = 0;\n        },\n                {\n            r = \"{2866, 425}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 8324}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1452, 2856}}";
+			sepNavSelRange = "{1785, 0}";
+			sepNavVisRange = "{904, 1410}";
+		};
+	};
+}

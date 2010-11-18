@@ -1,0 +1,1095 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F709AEAB1117779600843DF1 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F709AEA51117779600843DF1 /* pause.png */; };
+		F709AEAC1117779600843DF1 /* pause_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = F709AEA61117779600843DF1 /* pause_hover.png */; };
+		F709AEAD1117779600843DF1 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = F709AEA71117779600843DF1 /* continue.png */; };
+		F709AEAE1117779600843DF1 /* continue_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = F709AEA81117779600843DF1 /* continue_hover.png */; };
+		F709AEAF1117779600843DF1 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = F709AEA91117779600843DF1 /* cancel.png */; };
+		F709AEB01117779600843DF1 /* cancel_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = F709AEAA1117779600843DF1 /* cancel_hover.png */; };
+		F72B89C611B3C73D00D7FE81 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F72B89BE11B3C73D00D7FE81 /* Credits.html */; };
+		F72B89C711B3C73D00D7FE81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F72B89C011B3C73D00D7FE81 /* InfoPlist.strings */; };
+		F72B89C811B3C73D00D7FE81 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F72B89C211B3C73D00D7FE81 /* Localizable.strings */; };
+		F72B89C911B3C73D00D7FE81 /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72B89C411B3C73D00D7FE81 /* kekaGUI.xib */; };
+		F72D72231288B7B00016463A /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F72D721B1288B7B00016463A /* Credits.html */; };
+		F72D72241288B7B00016463A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F72D721D1288B7B00016463A /* InfoPlist.strings */; };
+		F72D72251288B7B00016463A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F72D721F1288B7B00016463A /* Localizable.strings */; };
+		F72D72261288B7B00016463A /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F72D72211288B7B00016463A /* kekaGUI.xib */; };
+		F73A0CF01021BE400057FCE5 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F73A0CEF1021BE400057FCE5 /* Growl.framework */; };
+		F73A0CFA1021BE6D0057FCE5 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F73A0CEF1021BE400057FCE5 /* Growl.framework */; };
+		F742E5541215B37B00C1D01D /* kekaNameChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = F742E5531215B37B00C1D01D /* kekaNameChooser.m */; };
+		F746EA6E11035E0D000A9A66 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F746EA6611035E0D000A9A66 /* Credits.html */; };
+		F746EA6F11035E0D000A9A66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F746EA6811035E0D000A9A66 /* InfoPlist.strings */; };
+		F746EA7011035E0D000A9A66 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F746EA6A11035E0D000A9A66 /* Localizable.strings */; };
+		F746EA7111035E0D000A9A66 /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F746EA6C11035E0D000A9A66 /* kekaGUI.xib */; };
+		F7581C5C10B8EDEC003D15C0 /* volume.icns in Resources */ = {isa = PBXBuildFile; fileRef = F7581C5B10B8EDEC003D15C0 /* volume.icns */; };
+		F76199FD10BEEE4100F9576A /* 7z.so in Resources */ = {isa = PBXBuildFile; fileRef = F76199FB10BEEE4100F9576A /* 7z.so */; };
+		F76199FE10BEEE4100F9576A /* keka7z in Resources */ = {isa = PBXBuildFile; fileRef = F76199FC10BEEE4100F9576A /* keka7z */; };
+		F776675110208EAF009D0D38 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F776675010208EAF009D0D38 /* Sparkle.framework */; };
+		F776675510208EBD009D0D38 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F776675010208EAF009D0D38 /* Sparkle.framework */; };
+		F77E757411FF708A0054785F /* xz.icns in Resources */ = {isa = PBXBuildFile; fileRef = F77E757311FF708A0054785F /* xz.icns */; };
+		F79EAB4910516FB10051CFD3 /* lzma.icns in Resources */ = {isa = PBXBuildFile; fileRef = F79EAB4810516FB10051CFD3 /* lzma.icns */; };
+		F79F92FD10755F2B0040777E /* COPYING.txt in Resources */ = {isa = PBXBuildFile; fileRef = F79F92FC10755F2B0040777E /* COPYING.txt */; };
+		F7B0B5B31046388C0062C861 /* kekaunace in Resources */ = {isa = PBXBuildFile; fileRef = F7B0B5B01046388C0062C861 /* kekaunace */; };
+		F7B0B5B41046388C0062C861 /* kekaunrar in Resources */ = {isa = PBXBuildFile; fileRef = F7B0B5B11046388C0062C861 /* kekaunrar */; };
+		F7B0B5BD104638AD0062C861 /* 7z.icns in Resources */ = {isa = PBXBuildFile; fileRef = F7B0B5B5104638AD0062C861 /* 7z.icns */; };
+		F7B0B5BE104638AD0062C861 /* ace.icns in Resources */ = {isa = PBXBuildFile; fileRef = F7B0B5B6104638AD0062C861 /* ace.icns */; };
+		F7B0B5C1104638AD0062C861 /* keka.icns in Resources */ = {isa = PBXBuildFile; fileRef = F7B0B5B9104638AD0062C861 /* keka.icns */; };
+		F7B0B5C2104638AD0062C861 /* rar.icns in Resources */ = {isa = PBXBuildFile; fileRef = F7B0B5BA104638AD0062C861 /* rar.icns */; };
+		F7CA9E70101F7EED0078BE83 /* kekakey in Resources */ = {isa = PBXBuildFile; fileRef = F7CA9E6F101F7EED0078BE83 /* kekakey */; };
+		F7DA25BC11A40B32003A62FE /* kekaController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DA25BB11A40B32003A62FE /* kekaController.m */; };
+		F7DA25C211A40CB1003A62FE /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = F7DA25C111A40CB1003A62FE /* key.png */; };
+		F7DA25C411A41001003A62FE /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = F7DA25C311A41001003A62FE /* exit.png */; };
+		F7E76BEF1288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BA81288B51A003C28BD /* Credits.html */; };
+		F7E76BF01288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BAA1288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76BF11288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BAC1288B51A003C28BD /* Localizable.strings */; };
+		F7E76BF21288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BAE1288B51A003C28BD /* kekaGUI.xib */; };
+		F7E76BF31288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BB11288B51A003C28BD /* Credits.html */; };
+		F7E76BF41288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BB31288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76BF51288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BB51288B51A003C28BD /* Localizable.strings */; };
+		F7E76BF61288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BB71288B51A003C28BD /* kekaGUI.xib */; };
+		F7E76BF71288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BBA1288B51A003C28BD /* Credits.html */; };
+		F7E76BF81288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BBC1288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76BF91288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BBE1288B51A003C28BD /* Localizable.strings */; };
+		F7E76BFA1288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BC01288B51A003C28BD /* kekaGUI.xib */; };
+		F7E76BFB1288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BC31288B51A003C28BD /* Credits.html */; };
+		F7E76BFC1288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BC51288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76BFD1288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BC71288B51A003C28BD /* Localizable.strings */; };
+		F7E76BFE1288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BC91288B51A003C28BD /* kekaGUI.xib */; };
+		F7E76BFF1288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BCC1288B51A003C28BD /* Credits.html */; };
+		F7E76C001288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BCE1288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76C011288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BD01288B51A003C28BD /* Localizable.strings */; };
+		F7E76C021288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BD21288B51A003C28BD /* kekaGUI.xib */; };
+		F7E76C031288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BD51288B51A003C28BD /* Credits.html */; };
+		F7E76C041288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BD71288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76C051288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BD91288B51A003C28BD /* Localizable.strings */; };
+		F7E76C061288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BDB1288B51A003C28BD /* kekaGUI.xib */; };
+		F7E76C071288B51A003C28BD /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BDE1288B51A003C28BD /* Credits.html */; };
+		F7E76C081288B51A003C28BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BE01288B51A003C28BD /* InfoPlist.strings */; };
+		F7E76C091288B51A003C28BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BE21288B51A003C28BD /* Localizable.strings */; };
+		F7E76C0A1288B51A003C28BD /* kekaGUI.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E76BE41288B51A003C28BD /* kekaGUI.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F776675D10208EC0009D0D38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F73A0CFA1021BE6D0057FCE5 /* Growl.framework in CopyFiles */,
+				F776675510208EBD009D0D38 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* keka_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keka_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Keka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F709AEA51117779600843DF1 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Images/pause.png; sourceTree = SOURCE_ROOT; };
+		F709AEA61117779600843DF1 /* pause_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause_hover.png; path = Images/pause_hover.png; sourceTree = SOURCE_ROOT; };
+		F709AEA71117779600843DF1 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = continue.png; path = Images/continue.png; sourceTree = SOURCE_ROOT; };
+		F709AEA81117779600843DF1 /* continue_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = continue_hover.png; path = Images/continue_hover.png; sourceTree = SOURCE_ROOT; };
+		F709AEA91117779600843DF1 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel.png; path = Images/cancel.png; sourceTree = SOURCE_ROOT; };
+		F709AEAA1117779600843DF1 /* cancel_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel_hover.png; path = Images/cancel_hover.png; sourceTree = SOURCE_ROOT; };
+		F72B89BF11B3C73D00D7FE81 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = zh_CN; path = Credits.html; sourceTree = "<group>"; };
+		F72B89C111B3C73D00D7FE81 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_CN; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F72B89C311B3C73D00D7FE81 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_CN; path = Localizable.strings; sourceTree = "<group>"; };
+		F72B89C511B3C73D00D7FE81 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F72D721C1288B7B00016463A /* pt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = pt; path = Credits.html; sourceTree = "<group>"; };
+		F72D721E1288B7B00016463A /* pt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = pt; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F72D72201288B7B00016463A /* pt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = pt; path = Localizable.strings; sourceTree = "<group>"; };
+		F72D72221288B7B00016463A /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F73A0CEF1021BE400057FCE5 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Frameworks/Growl.framework; sourceTree = "<group>"; };
+		F742E5521215B37B00C1D01D /* kekaNameChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kekaNameChooser.h; path = Classes/kekaNameChooser.h; sourceTree = SOURCE_ROOT; };
+		F742E5531215B37B00C1D01D /* kekaNameChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kekaNameChooser.m; path = Classes/kekaNameChooser.m; sourceTree = SOURCE_ROOT; };
+		F746EA6711035E0D000A9A66 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = zh_TW; path = Credits.html; sourceTree = "<group>"; };
+		F746EA6911035E0D000A9A66 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F746EA6B11035E0D000A9A66 /* zh_TW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_TW; path = Localizable.strings; sourceTree = "<group>"; };
+		F746EA6D11035E0D000A9A66 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7581C5B10B8EDEC003D15C0 /* volume.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = volume.icns; path = Icons/volume.icns; sourceTree = "<group>"; };
+		F76199FB10BEEE4100F9576A /* 7z.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = 7z.so; path = Bin/7z.so; sourceTree = "<group>"; };
+		F76199FC10BEEE4100F9576A /* keka7z */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = keka7z; path = Bin/keka7z; sourceTree = "<group>"; };
+		F776675010208EAF009D0D38 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		F77E757311FF708A0054785F /* xz.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = xz.icns; path = Icons/xz.icns; sourceTree = SOURCE_ROOT; };
+		F79EAB4810516FB10051CFD3 /* lzma.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = lzma.icns; path = Icons/lzma.icns; sourceTree = "<group>"; };
+		F79F92FC10755F2B0040777E /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
+		F7B0B5B01046388C0062C861 /* kekaunace */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o"; name = kekaunace; path = Bin/kekaunace; sourceTree = "<group>"; };
+		F7B0B5B11046388C0062C861 /* kekaunrar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = kekaunrar; path = Bin/kekaunrar; sourceTree = "<group>"; };
+		F7B0B5B5104638AD0062C861 /* 7z.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = 7z.icns; path = Icons/7z.icns; sourceTree = "<group>"; };
+		F7B0B5B6104638AD0062C861 /* ace.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = ace.icns; path = Icons/ace.icns; sourceTree = "<group>"; };
+		F7B0B5B9104638AD0062C861 /* keka.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = keka.icns; path = Icons/keka.icns; sourceTree = "<group>"; };
+		F7B0B5BA104638AD0062C861 /* rar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = rar.icns; path = Icons/rar.icns; sourceTree = "<group>"; };
+		F7CA9E6F101F7EED0078BE83 /* kekakey */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kekakey; sourceTree = "<group>"; };
+		F7DA25BA11A40B32003A62FE /* kekaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kekaController.h; path = Classes/kekaController.h; sourceTree = SOURCE_ROOT; };
+		F7DA25BB11A40B32003A62FE /* kekaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kekaController.m; path = Classes/kekaController.m; sourceTree = SOURCE_ROOT; };
+		F7DA25C111A40CB1003A62FE /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = Images/key.png; sourceTree = SOURCE_ROOT; };
+		F7DA25C311A41001003A62FE /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exit.png; path = Images/exit.png; sourceTree = SOURCE_ROOT; };
+		F7E76BA91288B51A003C28BD /* ca */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ca; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BAB1288B51A003C28BD /* ca */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ca; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BAD1288B51A003C28BD /* ca */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ca; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BAF1288B51A003C28BD /* ca */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ca; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7E76BB21288B51A003C28BD /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = de; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BB41288B51A003C28BD /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BB61288B51A003C28BD /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BB81288B51A003C28BD /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7E76BBB1288B51A003C28BD /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = en; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BBD1288B51A003C28BD /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BBF1288B51A003C28BD /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BC11288B51A003C28BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7E76BC41288B51A003C28BD /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = es; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BC61288B51A003C28BD /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BC81288B51A003C28BD /* es */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BCA1288B51A003C28BD /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7E76BCD1288B51A003C28BD /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = fr; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BCF1288B51A003C28BD /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BD11288B51A003C28BD /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BD31288B51A003C28BD /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7E76BD61288B51A003C28BD /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = it; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BD81288B51A003C28BD /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BDA1288B51A003C28BD /* it */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = it; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BDC1288B51A003C28BD /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = kekaGUI.xib; sourceTree = "<group>"; };
+		F7E76BDF1288B51A003C28BD /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ja; path = Credits.html; sourceTree = "<group>"; };
+		F7E76BE11288B51A003C28BD /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F7E76BE31288B51A003C28BD /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
+		F7E76BE51288B51A003C28BD /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = kekaGUI.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				F776675110208EAF009D0D38 /* Sparkle.framework in Frameworks */,
+				F73A0CF01021BE400057FCE5 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F73A0CEF1021BE400057FCE5 /* Growl.framework */,
+				F776675010208EAF009D0D38 /* Sparkle.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				F75C892511E3516200B4ECE6 /* Japanese.lproj */,
+				F700C2941105C6CD000032B1 /* French.lproj */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Keka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* keka */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = keka;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* keka_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7619A3C10BEF52C00F9576A /* Localizations */,
+				F7619A3B10BEF50500F9576A /* Bin */,
+				F7619A3A10BEF4ED00F9576A /* Icons */,
+				F7CA9E6F101F7EED0078BE83 /* kekakey */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				F79F92FC10755F2B0040777E /* COPYING.txt */,
+				F7D5F3FA11B4997600972411 /* Portugues.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F700C2941105C6CD000032B1 /* French.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E1FCF011DBFE01001BC8FC /* Català.lproj */,
+				F7DA25C311A41001003A62FE /* exit.png */,
+				F709AEA51117779600843DF1 /* pause.png */,
+				F709AEA61117779600843DF1 /* pause_hover.png */,
+				F709AEA71117779600843DF1 /* continue.png */,
+				F709AEA81117779600843DF1 /* continue_hover.png */,
+				F7924D3212882FC300A25E1B /* Catalan.lproj */,
+				F709AEA91117779600843DF1 /* cancel.png */,
+				F7E76BA71288B51A003C28BD /* ca.lproj */,
+				F7E76BB01288B51A003C28BD /* de.lproj */,
+				F7E76BB91288B51A003C28BD /* en.lproj */,
+				F7E76BC21288B51A003C28BD /* es.lproj */,
+				F7E76BCB1288B51A003C28BD /* fr.lproj */,
+				F7E76BD41288B51A003C28BD /* it.lproj */,
+				F7E76BDD1288B51A003C28BD /* ja.lproj */,
+				F7E76BE61288B51A003C28BD /* pt_PT.lproj */,
+				F709AEAA1117779600843DF1 /* cancel_hover.png */,
+				F787EB50123A5960007C0BD9 /* Italian.lproj */,
+			);
+			name = French.lproj;
+			path = Languages/French.lproj;
+			sourceTree = "<group>";
+		};
+		F72B89BD11B3C73D00D7FE81 /* zh_CN.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F742E5521215B37B00C1D01D /* kekaNameChooser.h */,
+				F742E5531215B37B00C1D01D /* kekaNameChooser.m */,
+				F72B89BE11B3C73D00D7FE81 /* Credits.html */,
+				F72B89C011B3C73D00D7FE81 /* InfoPlist.strings */,
+				F72B89C211B3C73D00D7FE81 /* Localizable.strings */,
+				F72B89C411B3C73D00D7FE81 /* kekaGUI.xib */,
+			);
+			name = zh_CN.lproj;
+			path = Languages/zh_CN.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F72D721A1288B7B00016463A /* pt.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F72D721B1288B7B00016463A /* Credits.html */,
+				F72D721D1288B7B00016463A /* InfoPlist.strings */,
+				F72D721F1288B7B00016463A /* Localizable.strings */,
+				F72D72211288B7B00016463A /* kekaGUI.xib */,
+			);
+			name = pt.lproj;
+			path = Languages/pt.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F746EA6511035E0D000A9A66 /* zh_TW.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F746EA6611035E0D000A9A66 /* Credits.html */,
+				F746EA6811035E0D000A9A66 /* InfoPlist.strings */,
+				F746EA6A11035E0D000A9A66 /* Localizable.strings */,
+				F746EA6C11035E0D000A9A66 /* kekaGUI.xib */,
+			);
+			name = zh_TW.lproj;
+			path = Languages/zh_TW.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F75C892511E3516200B4ECE6 /* Japanese.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Japanese.lproj;
+			path = Languages/Japanese.lproj;
+			sourceTree = "<group>";
+		};
+		F7619A3A10BEF4ED00F9576A /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F7B0B5B5104638AD0062C861 /* 7z.icns */,
+				F7B0B5B6104638AD0062C861 /* ace.icns */,
+				F79EAB4810516FB10051CFD3 /* lzma.icns */,
+				F7B0B5B9104638AD0062C861 /* keka.icns */,
+				F7B0B5BA104638AD0062C861 /* rar.icns */,
+				F7581C5B10B8EDEC003D15C0 /* volume.icns */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		F7619A3B10BEF50500F9576A /* Bin */ = {
+			isa = PBXGroup;
+			children = (
+				F76199FB10BEEE4100F9576A /* 7z.so */,
+				F76199FC10BEEE4100F9576A /* keka7z */,
+				F7B0B5B01046388C0062C861 /* kekaunace */,
+				F7B0B5B11046388C0062C861 /* kekaunrar */,
+			);
+			name = Bin;
+			sourceTree = "<group>";
+		};
+		F7619A3C10BEF52C00F9576A /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB53CE10D657FC00A4BCC0 /* German.lproj */,
+				F7F0698B10CD1EC800FF6B69 /* Spanish.lproj */,
+				F7B0B5C5104638B80062C861 /* English.lproj */,
+			);
+			name = Localizations;
+			sourceTree = "<group>";
+		};
+		F787EB50123A5960007C0BD9 /* Italian.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Italian.lproj;
+			path = Languages/Italian.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7924D3212882FC300A25E1B /* Catalan.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Catalan.lproj;
+			path = Languages/Catalan.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7B0B5C5104638B80062C861 /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F72B89BD11B3C73D00D7FE81 /* zh_CN.lproj */,
+				F7DA25BA11A40B32003A62FE /* kekaController.h */,
+				F7DA25BB11A40B32003A62FE /* kekaController.m */,
+			);
+			name = English.lproj;
+			path = Languages/English.lproj;
+			sourceTree = "<group>";
+		};
+		F7D5F3FA11B4997600972411 /* Portugues.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F77E757311FF708A0054785F /* xz.icns */,
+			);
+			name = Portugues.lproj;
+			path = Languages/Portugues.lproj;
+			sourceTree = "<group>";
+		};
+		F7DB53CE10D657FC00A4BCC0 /* German.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA25C111A40CB1003A62FE /* key.png */,
+			);
+			name = German.lproj;
+			path = Languages/German.lproj;
+			sourceTree = "<group>";
+		};
+		F7E1FCF011DBFE01001BC8FC /* Català.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Català.lproj";
+			path = "Languages/Català.lproj";
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BA71288B51A003C28BD /* ca.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E76BA81288B51A003C28BD /* Credits.html */,
+				F7E76BAA1288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BAC1288B51A003C28BD /* Localizable.strings */,
+				F7E76BAE1288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = ca.lproj;
+			path = Languages/ca.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BB01288B51A003C28BD /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E76BB11288B51A003C28BD /* Credits.html */,
+				F7E76BB31288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BB51288B51A003C28BD /* Localizable.strings */,
+				F7E76BB71288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = de.lproj;
+			path = Languages/de.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BB91288B51A003C28BD /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E76BBA1288B51A003C28BD /* Credits.html */,
+				F7E76BBC1288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BBE1288B51A003C28BD /* Localizable.strings */,
+				F7E76BC01288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = en.lproj;
+			path = Languages/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BC21288B51A003C28BD /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E76BC31288B51A003C28BD /* Credits.html */,
+				F7E76BC51288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BC71288B51A003C28BD /* Localizable.strings */,
+				F7E76BC91288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = es.lproj;
+			path = Languages/es.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BCB1288B51A003C28BD /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E76BCC1288B51A003C28BD /* Credits.html */,
+				F7E76BCE1288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BD01288B51A003C28BD /* Localizable.strings */,
+				F7E76BD21288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = fr.lproj;
+			path = Languages/fr.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BD41288B51A003C28BD /* it.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F7E76BD51288B51A003C28BD /* Credits.html */,
+				F7E76BD71288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BD91288B51A003C28BD /* Localizable.strings */,
+				F7E76BDB1288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = it.lproj;
+			path = Languages/it.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BDD1288B51A003C28BD /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F72D721A1288B7B00016463A /* pt.lproj */,
+				F7E76BDE1288B51A003C28BD /* Credits.html */,
+				F7E76BE01288B51A003C28BD /* InfoPlist.strings */,
+				F7E76BE21288B51A003C28BD /* Localizable.strings */,
+				F7E76BE41288B51A003C28BD /* kekaGUI.xib */,
+			);
+			name = ja.lproj;
+			path = Languages/ja.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7E76BE61288B51A003C28BD /* pt_PT.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = pt_PT.lproj;
+			path = Languages/pt_PT.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7F0698B10CD1EC800FF6B69 /* Spanish.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F746EA6511035E0D000A9A66 /* zh_TW.lproj */,
+			);
+			name = Spanish.lproj;
+			path = Languages/Spanish.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Keka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Keka" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				F776675D10208EC0009D0D38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Keka;
+			productInstallPath = "$(HOME)/Applications";
+			productName = keka;
+			productReference = 8D1107320486CEB800E47090 /* Keka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Keka" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Spanish,
+				de,
+				en,
+				es,
+				Deutsch,
+				zh_TW,
+				zh_CN,
+				Portugues,
+				"Català",
+				Italian,
+				Catalan,
+				ca,
+				fr,
+				it,
+				ja,
+				pt_PT,
+				pt,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* keka */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Keka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CA9E70101F7EED0078BE83 /* kekakey in Resources */,
+				F7B0B5B31046388C0062C861 /* kekaunace in Resources */,
+				F7B0B5B41046388C0062C861 /* kekaunrar in Resources */,
+				F7B0B5BD104638AD0062C861 /* 7z.icns in Resources */,
+				F7B0B5BE104638AD0062C861 /* ace.icns in Resources */,
+				F7B0B5C1104638AD0062C861 /* keka.icns in Resources */,
+				F7B0B5C2104638AD0062C861 /* rar.icns in Resources */,
+				F79EAB4910516FB10051CFD3 /* lzma.icns in Resources */,
+				F79F92FD10755F2B0040777E /* COPYING.txt in Resources */,
+				F7581C5C10B8EDEC003D15C0 /* volume.icns in Resources */,
+				F76199FD10BEEE4100F9576A /* 7z.so in Resources */,
+				F76199FE10BEEE4100F9576A /* keka7z in Resources */,
+				F746EA6E11035E0D000A9A66 /* Credits.html in Resources */,
+				F746EA6F11035E0D000A9A66 /* InfoPlist.strings in Resources */,
+				F746EA7011035E0D000A9A66 /* Localizable.strings in Resources */,
+				F746EA7111035E0D000A9A66 /* kekaGUI.xib in Resources */,
+				F709AEAB1117779600843DF1 /* pause.png in Resources */,
+				F709AEAC1117779600843DF1 /* pause_hover.png in Resources */,
+				F709AEAD1117779600843DF1 /* continue.png in Resources */,
+				F709AEAE1117779600843DF1 /* continue_hover.png in Resources */,
+				F709AEAF1117779600843DF1 /* cancel.png in Resources */,
+				F709AEB01117779600843DF1 /* cancel_hover.png in Resources */,
+				F7DA25C211A40CB1003A62FE /* key.png in Resources */,
+				F7DA25C411A41001003A62FE /* exit.png in Resources */,
+				F72B89C611B3C73D00D7FE81 /* Credits.html in Resources */,
+				F72B89C711B3C73D00D7FE81 /* InfoPlist.strings in Resources */,
+				F72B89C811B3C73D00D7FE81 /* Localizable.strings in Resources */,
+				F72B89C911B3C73D00D7FE81 /* kekaGUI.xib in Resources */,
+				F77E757411FF708A0054785F /* xz.icns in Resources */,
+				F7E76BEF1288B51A003C28BD /* Credits.html in Resources */,
+				F7E76BF01288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76BF11288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76BF21288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F7E76BF31288B51A003C28BD /* Credits.html in Resources */,
+				F7E76BF41288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76BF51288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76BF61288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F7E76BF71288B51A003C28BD /* Credits.html in Resources */,
+				F7E76BF81288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76BF91288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76BFA1288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F7E76BFB1288B51A003C28BD /* Credits.html in Resources */,
+				F7E76BFC1288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76BFD1288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76BFE1288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F7E76BFF1288B51A003C28BD /* Credits.html in Resources */,
+				F7E76C001288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76C011288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76C021288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F7E76C031288B51A003C28BD /* Credits.html in Resources */,
+				F7E76C041288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76C051288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76C061288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F7E76C071288B51A003C28BD /* Credits.html in Resources */,
+				F7E76C081288B51A003C28BD /* InfoPlist.strings in Resources */,
+				F7E76C091288B51A003C28BD /* Localizable.strings in Resources */,
+				F7E76C0A1288B51A003C28BD /* kekaGUI.xib in Resources */,
+				F72D72231288B7B00016463A /* Credits.html in Resources */,
+				F72D72241288B7B00016463A /* InfoPlist.strings in Resources */,
+				F72D72251288B7B00016463A /* Localizable.strings in Resources */,
+				F72D72261288B7B00016463A /* kekaGUI.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				F7DA25BC11A40B32003A62FE /* kekaController.m in Sources */,
+				F742E5541215B37B00C1D01D /* kekaNameChooser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F72B89BE11B3C73D00D7FE81 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72B89BF11B3C73D00D7FE81 /* zh_CN */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F72B89C011B3C73D00D7FE81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72B89C111B3C73D00D7FE81 /* zh_CN */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F72B89C211B3C73D00D7FE81 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72B89C311B3C73D00D7FE81 /* zh_CN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F72B89C411B3C73D00D7FE81 /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72B89C511B3C73D00D7FE81 /* zh_CN */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F72D721B1288B7B00016463A /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72D721C1288B7B00016463A /* pt */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F72D721D1288B7B00016463A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72D721E1288B7B00016463A /* pt */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F72D721F1288B7B00016463A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72D72201288B7B00016463A /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F72D72211288B7B00016463A /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72D72221288B7B00016463A /* pt */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F746EA6611035E0D000A9A66 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746EA6711035E0D000A9A66 /* zh_TW */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F746EA6811035E0D000A9A66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746EA6911035E0D000A9A66 /* zh_TW */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F746EA6A11035E0D000A9A66 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746EA6B11035E0D000A9A66 /* zh_TW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F746EA6C11035E0D000A9A66 /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F746EA6D11035E0D000A9A66 /* zh_TW */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BA81288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BA91288B51A003C28BD /* ca */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BAA1288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BAB1288B51A003C28BD /* ca */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BAC1288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BAD1288B51A003C28BD /* ca */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BAE1288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BAF1288B51A003C28BD /* ca */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BB11288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BB21288B51A003C28BD /* de */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BB31288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BB41288B51A003C28BD /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BB51288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BB61288B51A003C28BD /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BB71288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BB81288B51A003C28BD /* de */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BBA1288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BBB1288B51A003C28BD /* en */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BBC1288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BBD1288B51A003C28BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BBE1288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BBF1288B51A003C28BD /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BC01288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BC11288B51A003C28BD /* en */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BC31288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BC41288B51A003C28BD /* es */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BC51288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BC61288B51A003C28BD /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BC71288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BC81288B51A003C28BD /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BC91288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BCA1288B51A003C28BD /* es */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BCC1288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BCD1288B51A003C28BD /* fr */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BCE1288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BCF1288B51A003C28BD /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BD01288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BD11288B51A003C28BD /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BD21288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BD31288B51A003C28BD /* fr */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BD51288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BD61288B51A003C28BD /* it */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BD71288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BD81288B51A003C28BD /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BD91288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BDA1288B51A003C28BD /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BDB1288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BDC1288B51A003C28BD /* it */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+		F7E76BDE1288B51A003C28BD /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BDF1288B51A003C28BD /* ja */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+		F7E76BE01288B51A003C28BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BE11288B51A003C28BD /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BE21288B51A003C28BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BE31288B51A003C28BD /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F7E76BE41288B51A003C28BD /* kekaGUI.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7E76BE51288B51A003C28BD /* ja */,
+			);
+			name = kekaGUI.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = keka_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = keka;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = keka_Prefix.pch;
+				GCC_VERSION = 4.2;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Keka;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Keka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Keka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

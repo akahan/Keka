@@ -1,0 +1,62 @@
+/* Growl */
+"Extraction complete" = "解凍が完了しました"; // Extraction complete title
+"Extraction of file \"%@\" complete" = "ファイル \"%@\" の解凍が完了しました"; // Extraction complete description
+"Extraction fail" = "解凍に失敗しました"; // Extraction fail title
+"Extraction of file \"%@\" failed." = "ファイル \"%@\" の解凍に失敗しました"; // Extraction fail description
+"Compression complete" = "圧縮が完了しました"; // Compression complete title
+"File \"%@\" created" = "ファイル \"%@\" が作成されました"; // Compression complete description
+"Compression fail" = "圧縮に失敗しました"; // Compression fail title
+"File \"%@\" cannot be created" = "ファイル　\"%@\" を作成出来ませんでした"; // Compression fail description
+"Operation not implemented" = "この機能はまだ実装されていません"; // Advice to certain functions that are not implemented in beta process, title
+"This operation is not implemented yet so Keka is in beta process." = "Kekaはまだベータソフトなので、この機能はまだ実装されていません"; // Advice to certain functions that are not implemented in beta process,
+
+/* Progress window */
+"Performing operation..." = "作業中..."; // Main status text
+"Waiting..." = "待機中..."; // Second status text
+"Extracting \"%@\"" = "解凍中: \"%@\""; // Extract main status text
+"Extracting \"%@...\"" = "解凍中: \"%@...\""; // Extract main status text, long string
+"Creating %@ file..." = "ファイル %@ を作成中..."; // Compress main status text while waiting for choose name and location
+"Creating file \"%@\"" = "ファイルを作成中: \"%@\""; // Compress main status text
+"Creating file \"%@...\"" = "ファイルを作成中: \"%@...\""; // Compress main status text, long string
+"Time elapsed: %d seconds" = "経過時間: %d 秒"; // Time only sec
+"Time elapsed: %d:%@%d minutes" = "経過時間: %d:%@%d 分"; // Time, min and sec
+"Time elapsed: %d:%@%d:%@%d hours" = "経過時間: %d:%@%d:%@%d 時間"; // Time, hour, min and sec
+"%d seconds" = "%d 秒";
+"%d:%@%d minutes" = "%d:%@%d 分";
+"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d 時間";
+"Pause" = "一時停止";
+"Continue" = "続行";
+"Operation paused" = "作業を一時停止中";
+"Cancel" = "キャンセル";
+"Close" = "閉じる";
+"Operation failed" = "作業に失敗しました";
+"Operation failed with error code %d" = "エラーコード %d　で作業に失敗しました";
+
+/* Password window */
+"Password needed on file \"%@\"" = "ファイル \"%@\"　にはパスワードが必要です"; // Password need advice
+
+/* Preferences */
+// Compression methods
+"Store" = "無圧縮（格納のみ）";
+"Fastest" = "最高速";
+"Fast" = "高速";
+"Normal" = "普通";
+"Maximum" = "高圧縮";
+"Ultra" = "最高圧縮";
+// Save location and defaul name combo boxes
+"Ask each time" = "使用の度に指定する";
+"Next to original file" = "元のファイルと同じフォルダ";
+"Custom folder..." = "フォルダを指定...";
+"Same as original file" = "元のファイル名と同じ";
+"Custom name..." = "ファイル名を指定...";
+"Compressed file" = "圧縮されたファイル"; // Default name if no one specified in default name text box
+// Action to perform - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Perform automatic action" = "自動的に圧縮・解凍";
+"Always compress" = "常に圧縮する";
+"Always extract" = "常に解凍する";
+
+//Split items - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"1.4 MB Floppy" = "1.4 MB フロッピー";
+"650 MB CD" = "650 MB CD";
+"700 MB CD" = "700 MB CD";
+"4480 MB DVD" = "4480 MB DVD";

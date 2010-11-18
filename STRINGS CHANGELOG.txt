@@ -1,0 +1,10 @@
+Changes in 0.1.3
+
+- New:
+
+"Cancel" = "Cancel";
+"Close" = "Close";
+"Operation failed" = "Operation failed";
+"Operation failed with error code %d" = "Operation failed with error code %d";
+
+#####################################################################

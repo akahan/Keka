@@ -1,0 +1,61 @@
+/* Growl */
+"Extraction complete" = "La descompressió ha acabat"; // Extraction complete title
+"Extraction of file \"%@\" complete" = "La descompressió del fitxer \"%@\" ha acabat"; // Extraction complete description
+"Extraction fail" = "La descompressió ha fallat"; // Extraction fail title
+"Extraction of file \"%@\" failed." = "La descompressió de l'arxiu \"%@\" ha fallat."; // Extraction fail description
+"Compression complete" = "La compressió  ha acabat"; // Compression complete title
+"File \"%@\" created" = "S'ha creat el fitxer \"%@\""; // Compression complete description
+"Compression fail" = "La compressió ha fallat"; // Compression fail title
+"File \"%@\" cannot be created" = "No s'ha pogut crear el fitxer \"%@\""; // Compression fail description
+"Operation not implemented" = "Aquesta operació encara no s'ha desenvolupat"; // Advice to certain functions that are not implemented in beta process, title
+"This operation is not implemented yet so Keka is in beta process." = "Aquesta funció no ha estat implementada encara ja que el Keka està en versió beta."; // Advice to certain functions that are not implemented in beta process,
+
+/* Progress window */
+"Performing operation..." = "S'està executant l'operació..."; // Main status text
+"Waiting..." = "Un moment..."; // Second status text
+"Extracting \"%@\"" = "S'està descomprimint \"%@\""; // Extract main status text
+"Extracting \"%@...\"" = "S'està descomprimint \"%@...\""; // Extract main status text, long string
+"Creating %@ file..." = "S'està creant el fitxer %@..."; // Compress main status text while waiting for choose name and location
+"Creating file \"%@\"" = "S'està creant el fitxer \"%@\""; // Compress main status text
+"Time elapsed: %d seconds" = "Temps transcorregut: %d segons"; // Time only sec
+"Time elapsed: %d:%@%d minutes" = "Temps transcorregut: %d:%@%d minuts"; // Time, min and sec
+"Time elapsed: %d:%@%d:%@%d hours" = "Temps transcorregut: %d:%@%d:%@%d hores"; // Time, hour, min and sec
+"%d seconds" = "%d segons";
+"%d:%@%d minutes" = "%d:%@%d minuts";
+"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d hores";
+"Pause" = "Pausa";
+"Continue" = "Continua";
+"Operation paused" = "L'operació s'ha pausat";
+"Cancel" = "Cancel·la";
+"Close" = "Tanca";
+"Operation failed" = "L'operació ha fallat";
+"Operation failed with error code %d" = "L'operació ha fallat amb el codi d'error %d";
+
+/* Password window */
+"Password needed on file \"%@\"" = "Es necessita una contrasenya per \"%@\""; // Password need advice
+
+/* Preferences */
+// Compression methods
+"Store" = "Emmagatzema";
+"Fastest" = "El més ràpid";
+"Fast" = "Ràpid";
+"Normal" = "Normal";
+"Maximum" = "Màxim";
+"Ultra" = "Ultra";
+// Save location and defaul name combo boxes
+"Ask each time" = "Pregunta-m'ho cada vegada";
+"Next to original file" = "Al costat del fitxer original";
+"Custom folder..." = "Carpeta personalitzada...";
+"Same as original file" = "Sobreescriu l'arxiu original";
+"Custom name..." = "Nom personalitzat...";
+"Compressed file" = "Fixter comprimit"; // Default name if no one specified in default name text box
+// Action to perform - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Perform automatic action" = "Realitzar la acció automàticament";
+"Always compress" = "Comprimeix sempre";
+"Always extract" = "Descomprimeix sempre";
+
+//Split items - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"1.4 MB Floppy" = "1.4 MB Disquet";
+"650 MB CD" = "650 MB CD";
+"700 MB CD" = "700 MB CD";
+"4480 MB DVD" = "4480 MB DVD";

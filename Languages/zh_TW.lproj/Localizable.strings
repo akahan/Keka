@@ -1,0 +1,63 @@
+/* Growl */
+"Extraction complete" = "解壓縮完成"; // Extraction complete title
+"Extraction of file \"%@\" complete" = "解壓封存檔 \"%@\" 完成"; // Extraction complete description
+"Extraction fail" = "解壓縮失敗"; // Extraction fail title
+"Extraction of file \"%@\" failed." = "解壓封存檔 \"%@\" 失败"; // Extraction fail description
+"Compression complete" = "壓縮完成"; // Compression complete title
+"File \"%@\" created" = "封存檔 \"%@\" 已創建"; // Compression complete description
+"Compression fail" = "壓縮失敗"; // Compression fail title
+"File \"%@\" cannot be created" = "封存檔 \"%@\" 無法被創建"; // Compression fail description
+"Operation not implemented" = "操作沒有完成"; // Advice to certain functions that are not implemented in beta process, title
+"This operation is not implemented yet so Keka is in beta process." = "該操作沒有完成，因此 Keka 正處於 beta 中"; // Advice to certain functions that are not implemented in beta process,
+
+/* Progress window */
+"Performing operation..." = "操作正在進行中......"; // Main status text
+"Waiting..." = "等待中......"; // Second status text
+"Extracting \"%@\"" = "正在解壓縮 \"%@\""; // Extract main status text
+"Extracting \"%@...\"" = "正在解壓縮 \"%@...\""; // Extract main status text, long string
+"Creating %@ file..." = "正在創建 %@ 封存檔......"; // Compress main status text while waiting for choose name and location
+"Creating file \"%@\"" = "正在創建封存檔 \"%@\""; // Compress main status text
+"Time elapsed: %d seconds" = "已消耗時間： %d 秒"; // Time only sec
+"Time elapsed: %d:%@%d minutes" = "已消耗時間： %d:%@%d 分鍾"; // Time, min and sec
+"Time elapsed: %d:%@%d:%@%d hours" = "已消耗時間：  %d:%@%d:%@%d 小時"; // Time, hour, min and sec
+"%d seconds" = "%d 秒";
+"%d:%@%d minutes" = "%d:%@%d 分鍾";
+"%d:%@%d:%@%d hours" = "%d:%@%d:%@%d 小時";
+"Pause" = "暫停";
+"Continue" = "繼續";
+"Operation paused" = "操作暫停";
+"Cancel" = "取消";
+"Close" = "關閉";
+"Operation failed" = "操作失敗";
+"Operation failed with error code %d" = "操作失敗　錯誤代碼： %d";
+
+/* Password window */
+"Password needed on file \"%@\"" = "該封存檔需要密碼 \"%@\""; // Password need advice
+
+/* Preferences */
+// Compression methods
+"Store" = "存儲";
+"Fastest" = "最快";
+"Fast" = "快速";
+"Normal" = "正常";
+"Maximum" = "最大";
+"Ultra" = "極致";
+// Save location and defaul name combo boxes
+"Ask each time" = "每次均詢問";
+"Next to original file" = "和源檔案同一目錄";
+"Custom folder..." = "自定義目錄......";
+// ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Same as original file" = "和源檔案相同";
+// ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Custom name..." = "自定義檔案名...";
+"Compressed file" = "壓縮檔案"; // Default name if no one specified in default name text box
+// Action to perform - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"Perform automatic action" = "自動操作";
+"Always compress" = "總是壓縮";
+"Always extract" = "總是解壓縮";
+
+//Split items - ### VERY IMPORTANT TO BE THE SAME AS IN THE XIB FILE ###
+"1.4 MB Floppy" = "1.4 MB 軟碟";
+"650 MB CD" = "650 MB CD";
+"700 MB CD" = "700 MB CD";
+"4480 MB DVD" = "4480 MB DVD";
